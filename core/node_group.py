@@ -302,6 +302,8 @@ class SvGroupTreeNode(SverchCustomTreeNode, bpy.types.NodeCustomGroup):
     bl_idname = 'SvGroupTreeNode'
     bl_label = 'Group node (Alpha)'
 
+    sv_default_color = (0.184, 0.382, 0.175)
+
     # todo add methods: switch_on_off
 
     def nested_tree_filter(self, context):
